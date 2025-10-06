@@ -1,0 +1,16 @@
+[project]
+name = "fastapi-scrapy-demo"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "aiohttp>=3.12.15",
+    "redis>=5.0.1",
+    "asyncpg>=0.30.0",
+    "fastapi>=0.118.0",
+    "loguru>=0.7.3",
+    "psutil>=7.1.0",
+    "pydantic-settings>=2.11.0",
+    "scrapy>=2.13.3",
+    "uvicorn>=0.37.0",
+]
